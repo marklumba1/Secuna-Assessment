@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    @apply p-0 m-0 text-white font-mono;
+}
+input, select, textarea, option{
+    @apply text-slate-900 px-2 py-1 rounded
+}
+body{
+    @apply bg-slate-900
+}
+button{
+    @apply border border-slate-500 rounded bg-slate-700 hover:bg-slate-800 disabled:bg-slate-800
+}
+
+.container{
+    @apply w-screen h-screen flex justify-center items-center
+}
+.inner {
+    @apply flex flex-col
+}
+.register-container{
+    @apply p-3 border border-white rounded flex flex-col gap-5 w-[500px]
+}
+.login-container{
+    @apply p-3 border border-white rounded flex flex-col gap-5 max-w-[300px]
+}
+.link{
+    @apply text-center cursor-pointer underline
+}
+
+fieldset{
+    @apply flex flex-col gap-2
+}
+.small-title{
+    @apply text-center text-xl font-extrabold
+}
+
+.field-error{
+    @apply text-sm text-[red] mt-[-4px]
+}
+.qr{
+    @apply w-[50%] h-auto
+}
+.img-container{
+    @apply flex items-center justify-center
+}
+.center{
+    @apply text-center
+}

@@ -1,0 +1,24 @@
+.report-layout{
+    @apply p-2 border border-white rounded m-2 flex flex-col lg:flex-row gap-2
+}
+
+.report{
+    @apply border border-white rounded p-2 flex flex-col 
+}
+.btn-container{
+    @apply flex justify-end mt-2
+}
+
+
+
+.add-report-container{
+    @apply border border-white rounded p-2
+}
+
+.add-report-container form fieldset{
+    @apply flex 
+}
+
+.report-list{
+    @apply flex flex-col gap-2 w-full
+}
